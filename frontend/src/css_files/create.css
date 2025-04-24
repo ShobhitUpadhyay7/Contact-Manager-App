@@ -1,0 +1,40 @@
+.create-main {
+  background-color: #82cea4;
+  color: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-main input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.create-main button {
+  background-color: #ffffff;
+  color: #2be27d;
+  padding: 10px;
+  border: 2px solid #2be27d;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.create-main button:hover {
+  background-color: #2be27d;
+  color: white;
+}
